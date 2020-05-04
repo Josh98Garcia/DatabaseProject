@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore", "Bookstore\Bookstore.csproj", "{9572EE48-B4EC-4E8A-968E-61262AFECFB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{02E9BDC3-D4A0-4D2D-A16B-01C1946BC78A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E2C34E0C-19F5-450F-B9C6-D4FE96A5CF10}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\Models\Authors.cs = ..\..\Bookstore\BookstoreApplication\Models\Authors.cs
+		..\..\Bookstore\BookstoreApplication\Models\Books.cs = ..\..\Bookstore\BookstoreApplication\Models\Books.cs
+		..\..\Bookstore\BookstoreApplication\Models\Orders.cs = ..\..\Bookstore\BookstoreApplication\Models\Orders.cs
+		..\..\Bookstore\BookstoreApplication\Models\Publishers.cs = ..\..\Bookstore\BookstoreApplication\Models\Publishers.cs
+		..\..\Bookstore\BookstoreApplication\Models\Users.cs = ..\..\Bookstore\BookstoreApplication\Models\Users.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datatypes", "Datatypes", "{9F0D26DD-6D72-43A2-B617-1D14C6D3206C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\Datatypes\geography.cs = ..\..\Bookstore\BookstoreApplication\Datatypes\geography.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C0C20C89-AA57-4553-B79B-D6FCAE414A04}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Data\Bookstore.DataInsertStatements.sql = ..\..\Bookstore\BookstoreApplication\SQL\Data\Bookstore.DataInsertStatements.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Data\SQL_Data_Generator.ipynb = ..\..\Bookstore\BookstoreApplication\SQL\Data\SQL_Data_Generator.ipynb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Procedures", "Procedures", "{871C72E1-7975-43B5-BEA4-87926D5DAE60}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateAuthor.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateAuthor.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreatePublisher.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreatePublisher.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateUser.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateUser.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schemas", "Schemas", "{A368DF4A-22CC-4C59-84C1-53631A2B6A61}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Schemas\Bookstore.sql = ..\..\Bookstore\BookstoreApplication\SQL\Schemas\Bookstore.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{9D297CE5-BDA6-40D7-BBA5-5566894E6058}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Authors.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Authors.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Books.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Books.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Orders.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Orders.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Publishers.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Publishers.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Users.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\Bookstore.Users.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Tables\DropTables.sql = ..\..\Bookstore\BookstoreApplication\SQL\Tables\DropTables.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insertions", "Insertions", "{4E78831C-1AA9-4E6E-B178-944EFB396761}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateAuthor.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateAuthor.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreatePublisher.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreatePublisher.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateUser.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Insertions\Bookstore.CreateUser.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selects", "Selects", "{07AC760A-F3ED-4F9B-B671-D5553C5082CF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromAuthorID.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromAuthorID.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromISBN.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromISBN.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromOrderID.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromOrderID.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromPublisherID.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromPublisherID.sql
+		..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromUserID.sql = ..\..\Bookstore\BookstoreApplication\SQL\Procedures\Selects\Bookstore.FromUserID.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9572EE48-B4EC-4E8A-968E-61262AFECFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9572EE48-B4EC-4E8A-968E-61262AFECFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9572EE48-B4EC-4E8A-968E-61262AFECFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9572EE48-B4EC-4E8A-968E-61262AFECFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0C20C89-AA57-4553-B79B-D6FCAE414A04} = {02E9BDC3-D4A0-4D2D-A16B-01C1946BC78A}
+		{871C72E1-7975-43B5-BEA4-87926D5DAE60} = {02E9BDC3-D4A0-4D2D-A16B-01C1946BC78A}
+		{A368DF4A-22CC-4C59-84C1-53631A2B6A61} = {02E9BDC3-D4A0-4D2D-A16B-01C1946BC78A}
+		{9D297CE5-BDA6-40D7-BBA5-5566894E6058} = {02E9BDC3-D4A0-4D2D-A16B-01C1946BC78A}
+		{4E78831C-1AA9-4E6E-B178-944EFB396761} = {871C72E1-7975-43B5-BEA4-87926D5DAE60}
+		{07AC760A-F3ED-4F9B-B671-D5553C5082CF} = {871C72E1-7975-43B5-BEA4-87926D5DAE60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {607D5940-4111-4AF2-9008-41544ABC2F14}
+	EndGlobalSection
+EndGlobal
