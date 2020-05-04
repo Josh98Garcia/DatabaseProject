@@ -12,9 +12,16 @@ namespace Bookstore
 {
     public partial class FindExistingItems : Form
     {
-        public FindExistingItems()
+        Bookstore bookstore;
+        public FindExistingItems(Bookstore parent)
         {
             InitializeComponent();
+            bookstore = parent;
+        }
+
+        private void FindExistingItems_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            bookstore.Enabled = true;
         }
     }
 }

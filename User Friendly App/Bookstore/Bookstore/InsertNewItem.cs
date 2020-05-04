@@ -12,9 +12,16 @@ namespace Bookstore
 {
     public partial class InsertNewItem : Form
     {
-        public InsertNewItem()
+        Bookstore bookstore;
+        public InsertNewItem(Bookstore parent)
         {
             InitializeComponent();
+            bookstore = parent;
+        }
+
+        private void InsertNewItem_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            bookstore.Enabled = true;
         }
     }
 }

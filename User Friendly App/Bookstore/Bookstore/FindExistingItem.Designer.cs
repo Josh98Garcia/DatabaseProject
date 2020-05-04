@@ -48,15 +48,15 @@
             this.uxInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxInput.Location = new System.Drawing.Point(12, 14);
             this.uxInput.Name = "uxInput";
-            this.uxInput.Size = new System.Drawing.Size(611, 36);
+            this.uxInput.Size = new System.Drawing.Size(643, 36);
             this.uxInput.TabIndex = 2;
             // 
             // uxSearchButton
             // 
             this.uxSearchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSearchButton.Location = new System.Drawing.Point(629, 14);
+            this.uxSearchButton.Location = new System.Drawing.Point(661, 14);
             this.uxSearchButton.Name = "uxSearchButton";
-            this.uxSearchButton.Size = new System.Drawing.Size(159, 37);
+            this.uxSearchButton.Size = new System.Drawing.Size(127, 37);
             this.uxSearchButton.TabIndex = 4;
             this.uxSearchButton.Text = "SEARCH";
             this.uxSearchButton.UseVisualStyleBackColor = true;
@@ -73,6 +73,7 @@
             this.Name = "FindExistingItems";
             this.ShowIcon = false;
             this.Text = "Find Existing Items";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FindExistingItems_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -83,5 +84,7 @@
         private System.Windows.Forms.ListBox uxOutput;
         private System.Windows.Forms.TextBox uxInput;
         private System.Windows.Forms.Button uxSearchButton;
+
+
     }
 }

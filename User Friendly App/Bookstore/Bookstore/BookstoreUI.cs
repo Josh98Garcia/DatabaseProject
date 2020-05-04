@@ -31,13 +31,14 @@ namespace Bookstore
         {
             InsertNewItem INI = new InsertNewItem();
             INI.Show();
-
+            Enabled = false;
         }
 
         private void uxSelect_Click(object sender, EventArgs e)
         {
-            FindExistingItems FEI = new FindExistingItems();
+            FindExistingItems FEI = new FindExistingItems(this);
             FEI.Show();
+            Enabled = false;
         }
     }
 }

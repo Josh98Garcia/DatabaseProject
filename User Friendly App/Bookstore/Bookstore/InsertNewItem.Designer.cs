@@ -117,6 +117,7 @@
             this.Name = "InsertNewItem";
             this.ShowIcon = false;
             this.Text = "Insert New Item";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InsertNewItem_FormClosing);
             this.ResumeLayout(false);
 
         }
