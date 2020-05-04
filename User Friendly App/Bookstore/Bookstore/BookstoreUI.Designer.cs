@@ -42,6 +42,8 @@
             this.uxInsert.TabIndex = 2;
             this.uxInsert.Text = "Insert New Item";
             this.uxInsert.UseVisualStyleBackColor = true;
+            this.uxInsert.Click += new System.EventHandler(this.uxInsert_Click);
+            this.uxInsert.MouseHover += new System.EventHandler(this.uxInsert_MouseHover);
             // 
             // uxSelect
             // 
@@ -52,15 +54,17 @@
             this.uxSelect.TabIndex = 3;
             this.uxSelect.Text = "Find Existing Item";
             this.uxSelect.UseVisualStyleBackColor = true;
+            this.uxSelect.Click += new System.EventHandler(this.uxSelect_Click);
+            this.uxSelect.MouseMove += new System.Windows.Forms.MouseEventHandler(this.uxSelect_MouseMove);
             // 
             // uxInsFinDescription
             // 
+            this.uxInsFinDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxInsFinDescription.Location = new System.Drawing.Point(13, 56);
             this.uxInsFinDescription.Multiline = true;
             this.uxInsFinDescription.Name = "uxInsFinDescription";
             this.uxInsFinDescription.Size = new System.Drawing.Size(314, 245);
             this.uxInsFinDescription.TabIndex = 4;
-            this.uxInsFinDescription.Text = "Stuff goes here";
             // 
             // Bookstore
             // 

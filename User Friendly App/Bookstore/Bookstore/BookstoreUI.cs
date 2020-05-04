@@ -16,5 +16,28 @@ namespace Bookstore
         {
             InitializeComponent();
         }
+
+        private void uxInsert_MouseHover(object sender, EventArgs e)
+        {
+            uxInsFinDescription.Text = "Create your own Books, Authors, and Publishers to populate the Bookstore Database.";
+        }
+
+        private void uxSelect_MouseMove(object sender, MouseEventArgs e)
+        {
+            uxInsFinDescription.Text = "Search for Books, Authors, and Publishers using Keywords and other information.";
+        }
+
+        private void uxInsert_Click(object sender, EventArgs e)
+        {
+            InsertNewItem INI = new InsertNewItem();
+            INI.Show();
+
+        }
+
+        private void uxSelect_Click(object sender, EventArgs e)
+        {
+            FindExistingItems FEI = new FindExistingItems();
+            FEI.Show();
+        }
     }
 }
